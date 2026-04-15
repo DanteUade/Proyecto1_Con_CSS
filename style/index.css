@@ -77,11 +77,25 @@ main {
 }
 
 main img {
-    width: 260px;          
+    width: 220px;
     height: auto;
     border-radius: 12px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+    border: 4px solid #ffffff;
+    outline: 2px solid #1A5C51;
+    box-shadow:
+        4px 4px 0px #1A5C51,
+        8px 8px 0px rgba(26, 92, 81, 0.35),
+        12px 12px 24px rgba(0, 0, 0, 0.2);
     display: block;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+main img:hover {
+    transform: translate(-3px, -3px);
+    box-shadow:
+        7px 7px 0px #1A5C51,
+        12px 12px 0px rgba(26, 92, 81, 0.35),
+        16px 16px 28px rgba(0, 0, 0, 0.2);
 }
 
 main p {
@@ -91,6 +105,7 @@ main p {
 }
 
 /*  FOOTER  */
+
 footer {
     background-color: #000000;
     color: #ffffff;
@@ -98,4 +113,5 @@ footer {
     padding: 18px 24px;
     font-size: 0.9rem;
     letter-spacing: 0.3px;
+    border-radius: 8px 8px 0 0;
 }

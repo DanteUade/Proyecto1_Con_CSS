@@ -105,4 +105,5 @@ footer {
     padding: 18px 24px;
     font-size: 0.9rem;
     letter-spacing: 0.3px;
+    border-radius: 8px 8px 0 0;
 }

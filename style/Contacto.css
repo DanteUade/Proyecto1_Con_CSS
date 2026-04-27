@@ -1,11 +1,11 @@
-/*  RESET & BASE  */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*  BODY  */
+
 body {
     background-color: #4DD9C0;
     font-family: Georgia, serif;
@@ -14,7 +14,7 @@ body {
     flex-direction: column;
 }
 
-/*  HEADER  */
+
 header {
     display: flex;
     flex-direction: row;
@@ -33,7 +33,7 @@ header h1 {
     letter-spacing: 0.5px;
 }
 
-/*  NAV  */
+
 nav {
     background-color: #1A5C51;
     border-radius: 8px;
@@ -64,7 +64,7 @@ nav ul li a:hover {
     color: #1A5C51;
 }
 
-/*  MAIN  */
+
 main {
     flex: 1;
     display: flex;
@@ -97,7 +97,7 @@ main a:hover {
     letter-spacing: 2px;
 }
 
-/*  FOOTER  */
+
 footer {
     background-color: #000000;
     color: #ffffff;
@@ -109,7 +109,7 @@ footer {
 }
 
 
-/* ===== TABLET (hasta 1024px) ===== */
+
 @media (max-width: 1024px) {
     header {
         padding: 0 24px;
@@ -147,7 +147,7 @@ footer {
     }
 }
 
-/* ===== CELULAR (hasta 768px) ===== */
+
 @media (max-width: 768px) {
     header {
         padding: 0 16px;

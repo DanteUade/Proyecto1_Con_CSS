@@ -1,61 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/intereses.css">
-    <title>Presentacion Dante</title>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Intereses — Dante Luongo</title>
 </head>
 <body>
+
     <header>
         <h1><em><strong>Mi Sitio Personal</strong></em></h1>
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="intereses.html">Intereses</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="intereses.html" class="activo">Intereses</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2><strong>Intereses</strong></h2>
-        <ul>
-            <li><a href="#dante">Jugar al basket</a></li>
+        <h2>Intereses</h2>
+
+        <!-- Índice de navegación interna -->
+        <ul class="lista-indice">
+            <li><a href="#basket">Jugar al basket</a></li>
             <li><a href="#leer">Leer</a></li>
             <li><a href="#viajar">Viajar</a></li>
             <li><a href="#amigos">Juntarme con mis amigos</a></li>
         </ul>
 
-        <h3 id="Dante">Bsket</h3>
-        <img src="img/basket.jpg" alt="Dante">
-        <p>Practico basketball desde los 5 años, comenzando en el Vecinal de Munro, luego en Banco Provincia.
-             A los 19 años tuve la oportunidad de jugar en Italia
-            Al volver, continué jugando en la tercera división de Argentina.
-        Gracias al basketball conocí mucha gente y le estoy muy agradecido a este deporte.</p>
-
-        <h3 id="leer">Autores de mi interes</h3>
-        <ul class="autores">
-            <li>J.R.R. Tolkien</li>
-            <li>Julio Cortazar</li>
-            <li>James Dashner</li>
-            <li>Dan Brown</li>
-            <li>George Orwell</li>
-        </ul>
-        <h3 id="viajar">Algunos viajes</h3>
-        <div class="viajes">
-            <img src="img/v1.jpg" alt="viajes">
-            <img src="img/v2.jpg" alt="viajes">
-            <img src="img/v3.jpg" alt="viajes">
-            <img src="img/v4.jpg" alt="viajes">
+        <!-- Sección Basket -->
+        <div class="seccion-interes" id="basket">
+            <h3>Basket</h3>
+            <img src="img/basket.jpg" alt="Dante jugando al basketball">
+            <p>
+                Practico basketball desde los 5 años, comenzando en el Vecinal de Munro,
+                luego en Banco Provincia. A los 19 años tuve la oportunidad de jugar en Italia.
+                Al volver, continué jugando en la tercera división de Argentina.
+                Gracias al basketball conocí mucha gente y le estoy muy agradecido a este deporte.
+            </p>
         </div>
 
-        <h3 id="amigos">Mis amigos</h3>
-        <img src="img/a1.jpg" alt="amigos" class="foto-amigos">
+        <!-- Sección Leer -->
+        <div class="seccion-interes" id="leer">
+            <h3>Autores de mi interés</h3>
+            <ul class="autores">
+                <li>J.R.R. Tolkien</li>
+                <li>Julio Cortázar</li>
+                <li>James Dashner</li>
+                <li>Dan Brown</li>
+                <li>George Orwell</li>
+            </ul>
+        </div>
+
+        <!-- Sección Viajar -->
+        <div class="seccion-interes" id="viajar">
+            <h3>Algunos viajes</h3>
+            <div class="viajes">
+                <img src="img/v1.jpg" alt="Viaje 1">
+                <img src="img/v2.jpg" alt="Viaje 2">
+                <img src="img/v3.jpg" alt="Viaje 3">
+                <img src="img/v4.jpg" alt="Viaje 4">
+            </div>
+        </div>
+
+        <!-- Sección Amigos -->
+        <div class="seccion-interes" id="amigos">
+            <h3>Mis amigos</h3>
+            <img src="img/a1.jpg" alt="Foto con amigos" class="foto-amigos">
+        </div>
+
     </main>
 
     <footer>
         <p>Dante Luongo &copy; Todos los derechos reservados</p>
     </footer>
+
 </body>
 </html>
